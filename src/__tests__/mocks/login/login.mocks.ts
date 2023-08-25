@@ -1,33 +1,33 @@
-import { TUserLogin } from '../interfaces'
+import { TUserLogin } from "../interfaces";
 
 const userAdminLogin: TUserLogin = {
-    email: 'ugo@kenzie.com.br',
-    password: '1234',
-}
+  email: "ugo@kenzie.com.br",
+  password: "1234",
+};
 
 const userNotAdminLogin: TUserLogin = {
-    email: 'lucas@kenzie.com.br',
-    password: '1234',
-}
+  email: "lucas@kenzie.com.br",
+  password: "1234",
+};
 
 const userWrongPasswordLogin: TUserLogin = {
-    email: 'lucas@kenzie.com.br',
-    password: 'senhaerrada',
-}
+  email: "lucas@kenzie.com.br",
+  password: "senhaerrada",
+};
 
 const userWrongEmailLogin: TUserLogin = {
-    email: 'emailerrado@email.com',
-    password: '1234',
-}
+  email: "emailerrado@email.com",
+  password: "1234",
+};
 
 const userWrongKeysLogin: Partial<TUserLogin> = {
-    email: 'emailerrado',
-}
+  email: "emailerrado",
+};
 
 export {
-    userAdminLogin,
-    userNotAdminLogin,
-    userWrongKeysLogin,
-    userWrongEmailLogin,
-    userWrongPasswordLogin,
-}
+  userAdminLogin,
+  userNotAdminLogin,
+  userWrongKeysLogin,
+  userWrongEmailLogin,
+  userWrongPasswordLogin,
+};
